@@ -1,0 +1,48 @@
+.raisa-chatbot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f8fa;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.raisa-chatbot__header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0366d6;
+    margin-bottom: 10px;
+}
+
+.raisa-chatbot__message {
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.raisa-chatbot__input {
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.raisa-chatbot__send {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.raisa-chatbot__send:hover {
+    background-color: #218838;
+}
